@@ -7,9 +7,9 @@
 }
 
 body {
-  margin: 0px;
-  padding: 0px;
-  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
 }
 
 header {
@@ -54,14 +54,337 @@ nav {
   color: #333;
 }
 
-a.btn-blue {
-  background: blueviolet;
+.desc {
+  padding-top: 2em;
+  padding-left: 22%;
+  display: flex;
+  max-width: 1000px;
+}
+
+h1 {
+  padding-top: 3em;
+  color: #6495ed;
+  font-size: 30px;
+  font-weight: bold;
+  margin: auto;
+  border: none;
+  outline: none;
+}
+img {
+  padding-left: 0;
+  max-width: 400px;
+  margin-right: 0px;
+}
+
+p {
+  margin: auto;
+  width: 100%;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-top: 10px;
+  position: relative;
+  padding-bottom: 2em;
+  width: 100%;
+  max-width: 800px;
+}
+
+a.btn-see {
+  padding-top: 1em;
+  background: #6495ed;
   border-radius: 20px;
   margin-top: 20px;
   padding: 15px 20px 15px 20px;
   color: white;
   cursor: pointer;
   font-weight: bold;
+  font-size: 18px;
+}
+
+a.btn-see:hover {
+  background-color: #b0daff;
+}
+
+.friend {
+  margin-top: 1em;
+  border-style: solid;
+  border-color: #b0daff;
+  background-color: #b0daff;
+  height: 15em;
+  width: 100%;
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.friend img {
+  padding-left: 50%;
+
+  padding-bottom: 5em;
+  position: relative;
+}
+
+.layanan {
+  position: relative;
+  margin-top: 2em;
+  overflow: hidden;
+}
+
+.descriptions {
+  padding-top: 1em;
+  font-weight: 800;
+  font-size: 1em;
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 20px;
+  overflow: hidden;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.tes {
+  box-shadow: 10px 5px 5px #c2dedc;
+  padding: 10px;
+  border: 1px grey;
+  border-radius: 2em;
+  font-size: 75%;
+  width: 15%;
+  float: left;
+  padding: 20px;
+  padding: 1em;
+  position: relative;
+}
+
+.konsultasi {
+  box-shadow: 10px 5px 5px #c2dedc;
+  padding-right: 1em;
+  padding: 10px;
+  border: 1px grey;
+  border-radius: 2em;
+  font-size: 75%;
+  width: 15%;
+  float: left;
+  padding: 20px;
+  padding: 1em;
+  position: relative;
+}
+
+.webinar {
+  box-shadow: 10px 5px 5px #c2dedc;
+  padding-right: 1em;
+  border: 1px grey;
+  border-radius: 2em;
+  font-size: 75%;
+  width: 15%;
+  float: left;
+  padding: 20px;
+  padding: 1em;
+  position: relative;
+}
+.btn-dua {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-dua a {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold;
+}
+.btn-dua a:hover {
+  color: #b0daff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.artikel {
+  margin-top: 1em;
+
+  padding-bottom: 3em;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.satu {
+  border: none;
+
+  box-shadow: 10px 5px 5px #c2dedc;
+  padding: 1em;
+
+  border-radius: 1em;
+  font-size: 75%;
+  width: 15%;
+  float: left;
+  padding: 20px;
+  border-color: black;
+  position: relative;
+}
+.dua {
+  box-shadow: 10px 5px 5px #c2dedc;
+  padding: 1em;
+
+  border-radius: 1em;
+  font-size: 75%;
+  width: 15%;
+  float: left;
+  padding: 20px;
+  border-color: black;
+  position: relative;
+}
+
+.tiga {
+  box-shadow: 10px 5px 5px #c2dedc;
+  padding: 1em;
+
+  border-radius: 1em;
+  font-size: 75%;
+  width: 15%;
+  float: left;
+  padding: 20px;
+  border-color: black;
+  position: inherit;
+}
+
+.artikel img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+h3 {
+  color: blue;
+  padding-left: 20px;
+}
+
+.lihat {
+  padding-left: 50%;
+  padding-bottom: 3em;
+}
+a.btn-bwh {
+  border: #6495ed;
+  border-style: solid;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 40px;
+  border-radius: 5em;
+  color: #6495ed;
+}
+
+button:hover {
+  background-color: #090580;
+}
+
+footer {
+  background-color: #333;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+}
+
+.akhir {
+  display: flex;
+  padding-left: 2em;
+}
+
+.brand {
+  flex-grow: 1;
+  flex-basis: 50%;
+}
+
+.info {
+  flex-grow: 1;
+  flex-basis: 50%;
+  font-size: 20px;
+}
+
+.info ul {
+  list-style-type: none;
+  line-height: 2;
+  font-weight: 200;
+}
+
+.info a {
+  color: gray;
+  text-decoration: none;
+}
+.info a:hover {
+  color: whitesmoke;
+  text-decoration: underline;
+}
+
+.kontak {
+  flex-grow: 1;
+  flex-basis: 50%;
+  font-size: 20px;
+}
+
+.kontak ul {
+  list-style-type: none;
+  line-height: 2;
+  font-weight: 200;
+}
+
+.kontak a {
+  color: gray;
+  text-decoration: none;
+}
+.kontak a:hover {
+  color: whitesmoke;
+  text-decoration: underline;
+}
+.akhir h2 {
+  margin-bottom: 20px;
+  font-size: 35px;
+  color: whitesmoke;
+}
+.akhir p {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1.5;
+}
+.akhir h3 {
+  padding-top: 1em;
+  color: whitesmoke;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.copyright {
+  padding: 15px 0;
+  text-align: center;
+  border-top: 1px solid white;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.sosial {
+  margin: auto;
+  padding-bottom: 2em;
+}
+.sosial {
+  display: flex;
+  text-align: center;
+}
+
+.sosial img {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  border-radius: 50%;
+}
+.sosial a:hover {
+  color: #24262b;
 }
 
 a.btn-biru {
@@ -76,27 +399,7 @@ a.btn-biru {
   font-weight: bold;
 }
 
-a.btn-blue:hover {
-  background: #b0daff;
-  text-decoration: none;
-}
-
-a.btn-see {
-  background: blueviolet;
-  border-radius: 20px;
-  margin-top: 40px;
-  padding: 15px 20px 15px 20px;
-  color: white;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-a.btn-see:hover {
-  background: #b0daff;
-  text-decoration: none;
-}
-
-.container {
+.container2 {
   grid-template-columns: 1fr 1fr 1fr;
   margin: 32px auto auto;
   display: grid;
