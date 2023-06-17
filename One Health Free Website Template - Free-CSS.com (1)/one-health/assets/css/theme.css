@@ -268,6 +268,9 @@ a.text-dark:hover, a.text-dark:focus {
   border-color: transparent;
 }
 
+.btn btn-primary{
+  align-content: space-evenly;
+}
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
   background-color: #07be94;
